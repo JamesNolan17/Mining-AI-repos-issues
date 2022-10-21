@@ -1,1 +1,1 @@
-# Minging-AI-repo-s-issues
+# Minging-AI-repos-issues
