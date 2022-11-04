@@ -36,7 +36,7 @@ options.add_argument('--user-agent=%s' % user_agent)
 #options.add_experimental_option('useAutomationExtension', False)
 driver = webdriver.Chrome(executable_path=PATH, options=options)
 driver.set_window_size(700, 800)
-num = 435
+num = 539
 def get_citation(name_paper):
     global num
     # Example for 0 citation
