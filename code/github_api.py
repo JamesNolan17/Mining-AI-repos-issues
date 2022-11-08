@@ -8,7 +8,7 @@ g = Github("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")
 
 with open('repos.json') as f:
     repos = json.load(f)
-# repos = {"Transformers": "https://github.com/huggingface/transformers"}
+repos = {"Transformers": "https://github.com/huggingface/optimum"}
 
 star_dataset = {}
 issue_dataset = {}
@@ -28,15 +28,29 @@ for repo_url in repos.values():
 # Analysis Issue Stats
 
 for repo_url, issues in issue_dataset.items():
+    for issue in issues:
+        try:
+            print([_.event for _ in issue.get_events()])
+            exit(0)
+            print(issue.title)
+            print(issue.comments) # number of comments
+            print(issue.labels)
+            #print(issue._identity)
+            #print(issue.body)
+            #print(issue.get_events())
+            print(issue.html_url) # url
+            print("End of Issue")
+            #cused_labels.update(issue.labels)
+        except Exception as e:
+            print(f'[{repo_url}] {e}')
+
+    exit(0)
     num_issue_open = sum(issue.pull_request is None for issue in issues)
     num_pr_open = issues.totalCount - num_issue_open
     num_issue_open_no_assignee = sum(issue.pull_request is None and issue.assignee is None for issue in issues)
     num_issue_open_no_label = sum(issue.pull_request is None and len(issue.labels) == 0 for issue in issues)
     num_issue_type = issue_type_dataset[repo_url].totalCount
     used_labels = set()
-    for issue in issues:
-        used_labels.update(issue.labels)
-
     print(f'[{repo_url}]')
     print(f'Number of stars: {star_dataset[repo_url]}')
     print(f'Number of open issues: {num_issue_open}')
