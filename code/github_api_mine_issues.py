@@ -3,13 +3,19 @@ from github import Github
 import json
 import time
 start = time.time()
-g = Github("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")
+#g = Github("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")
+g = Github("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")
 df_repo = pd.read_csv('repoDB.csv')
-df_issue = pd.read_csv('issueDB.csv')
+df_issue = pd.read_csv('issueDB_part_3.csv')
 
-first_to_record = "mnswdhw/InvGAN-Pytorch"
-
+name_to_record = "PaddlePaddle/PaddleDetection"
+start = False
 for index, paper in df_repo.iterrows():
+    if paper['Name_Repo'] == name_to_record:
+        start = True
+    if not start:
+        continue
+    print(f'[{index + 1}] {paper["Name_Repo"]}')
     repo_url = paper['Name_Repo']
     try:
         repo = g.get_repo(repo_url)
@@ -74,4 +80,4 @@ for index, paper in df_repo.iterrows():
         df_repo.loc[index, 'Num_Issue_Type_Unused'] = 0
 
     df_repo.to_csv('repoDB.csv', index=False)
-    df_issue.to_csv('issueDB.csv', index=False)
+    df_issue.to_csv('issueDB_part_3.csv', index=False)
