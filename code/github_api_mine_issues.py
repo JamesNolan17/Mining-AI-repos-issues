@@ -5,11 +5,16 @@ import time
 start = time.time()
 #g = Github("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")
 g = Github("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")
-df_repo = pd.read_csv('repoDB.csv')
-df_issue = pd.read_csv('issueDB_part_3.csv')
 
-name_to_record = "PaddlePaddle/PaddleDetection"
+repo_src = 'MBEM.csv'
+issue_src = 'issue51.csv'
+
+df_repo = pd.read_csv(repo_src)
+df_issue = pd.read_csv(issue_src)
+
+name_to_record = "khetan2/MBEM"
 start = False
+
 for index, paper in df_repo.iterrows():
     if paper['Name_Repo'] == name_to_record:
         start = True
@@ -79,5 +84,5 @@ for index, paper in df_repo.iterrows():
     else:
         df_repo.loc[index, 'Num_Issue_Type_Unused'] = 0
 
-    df_repo.to_csv('repoDB.csv', index=False)
-    df_issue.to_csv('issueDB_part_3.csv', index=False)
+    df_repo.to_csv(repo_src, index=False)
+    df_issue.to_csv(issue_src, index=False)
