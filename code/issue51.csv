@@ -1,0 +1,23 @@
+,Title,Name_Repo,Date_Created,Num_Comment,Label_Issue,Identity_Repo,Identity_Global,Body
+2798,What are the simplest methods for the label noise problem?,khetan2/MBEM,2020-06-03 02:29:42,0,,3,629643438,"If I have enough low quality data from unsupervised methods or rule-based methods.
+
+I read from https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise ,but these methods are a little complex for me.
+
+In detail, I deal with a multi-label classification task. First I crawl web page such as wiki and use regex-based rule to mark the label. The model input is the wiki title and the model output is the rule-matched labels from wiki content. My task is to predict the labels for the wiki title.
+
+Do you think **removing the wrong data predicted by trained model** is a simple but effective method?
+
+@khetan2  Thank you very much!"
+2799,Main function starts MBEM with trained resnet prediction?,khetan2/MBEM,2019-03-07 21:24:29,0,,2,418519656,"It is tripping to see the code actually starts the MBEM algorithm after training the resnet with weighted majority vote labels twice. Is this how the results are obtained?
+
+`print ""Algorithm: MBEM:\t\t\t"",    
+    # running the proposed algorithm ""MBEM: model bootstrapped expectation maximization"" 
+    # computing posterior probabilities of the true labels given the noisy labels and the worker identities.
+    # post_prob_DS function takes the noisy labels given by the workers ""resp_org"", model prediction obtained 
+    # by running ""weighted majority vote"" algorithm, and the worker identities.
+    probs_est_labels = post_prob_DS(resp_org[valid],naive_pred[valid],workers_this_example[valid])      
+    algo_agg = np.zeros((n,k))    
+    algo_agg[valid] = probs_est_labels
+    # calling the ""call_train"" function with aggregated labels being the posterior probability distribution of the 
+    # examples given the model prediction obtained using the ""weighted majority vote"" algorithm.
+    _, val_acc = call_train(n,samples,k,algo_agg[valid],workers_val_label,fname,epochs,depth,gpus)`"

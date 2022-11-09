@@ -3,7 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/hi.csv">
+        <entry key="/issue51.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -17,14 +17,21 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/issueDB_part_3.csv">
+        <entry key="/issueDB_part_1.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/issue_DB_part_2.csv">
+        <entry key="/issueDB_part_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/issueDB_part_3.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -35,13 +42,6 @@
           <value>
             <Attribute>
               <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/repos.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
             </Attribute>
           </value>
         </entry>
