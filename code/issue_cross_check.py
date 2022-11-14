@@ -1,8 +1,15 @@
 import pandas as pd
-import numpy as np
+
 
 df_repo = pd.read_csv('repoDB.csv')
-df_issue = pd.read_csv('issueDB.csv')
+df_issue = pd.read_csv('issueDB_OPEN.csv')
+
+
+
+
+
+
+print(len(df_issue))
 for index, paper in df_repo.iterrows():
     #print(f'[{index + 1}] {paper["Name_Repo"]}')
     repo_name = paper['Name_Repo']

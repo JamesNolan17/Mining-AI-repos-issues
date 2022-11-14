@@ -4,6 +4,7 @@ import io, json
 import pandas as pd
 client = PapersWithCodeClient()
 g = Github("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")
+# https://www.am.ai/en/blog/ai-conferences-2022/
 conference_ids = [_.lower() for _ in [
     "CVPR",
     "ICLR",
