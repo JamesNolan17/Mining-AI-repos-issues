@@ -4,7 +4,7 @@ import time
 repo_src = 'repoDB.csv'
 issue_src = 'issueDB.csv'
 
-name_to_record = "open-mmlab/mmdetection"
+name_to_record = "frgfm/Holocron"
 start = False
 
 df_repo = pd.read_csv(repo_src, encoding='latin-1')
