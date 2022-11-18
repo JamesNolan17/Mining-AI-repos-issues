@@ -1,8 +1,0 @@
-,Unnamed: 0,Title,Name_Repo,Date_Created,Num_Comment,Label_Issue,Identity_Repo,Identity_Global,Body,English,Language_Prediction
-0,0,"Where is the update of confusion matrix, prior, posterior prob?",khetan2/MBEM,2019-03-07 21:22:48,0,,1,418519014,"The two questions are somewhat related. 
-
-1. In MBEM.py, there is one calculation of posterior prob before the start of MBEM algorithm. In ""core_train"" function it trains once, predicts, trains again with previous prediction as ground truth, and return the second prediction results. I couldn't find where the code updates the confusion matrix, prior and hence the posterior prob. Could you point me towards the piece of code? 
-
-2. How does the code pass the posterior prob into the resnet for computing weighted loss? 
-
-Thank you.",True,"dict_keys(['en', 'hi', 'ur', 'es', 'ja', 'it', 'zh', 'tr', 'de', 'sw', 'pt', 'nl', 'fr', 'th', 'vi', 'bg', 'pl', 'el', 'ar', 'ru'])"

@@ -1,71 +1,112 @@
 import pandas as pd
-from github import Github
-import json
+from github_token import *
 import time
-start = time.time()
-#g = Github("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")
-g = Github("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")
+repo_src = 'repoDB.csv'
+issue_src = 'issueDB.csv'
 
-repo_src = 'MBEM.csv'
-issue_src = 'issue51.csv'
-
-df_repo = pd.read_csv(repo_src)
-df_issue = pd.read_csv(issue_src)
-
-name_to_record = "khetan2/MBEM"
+name_to_record = "open-mmlab/mmdetection"
 start = False
 
+df_repo = pd.read_csv(repo_src, encoding='latin-1')
 for index, paper in df_repo.iterrows():
+    df_issue = pd.DataFrame()
     if paper['Name_Repo'] == name_to_record:
         start = True
     if not start:
         continue
     print(f'[{index + 1}] {paper["Name_Repo"]}')
     repo_url = paper['Name_Repo']
-    try:
-        repo = g.get_repo(repo_url)
-    except Exception as e:
-        print(repo_url)
-        print(f'{e}')
-        time.sleep(60*60)
-        continue
-    issues = repo.get_issues()
+    repo = g.get_repo(repo_url)
+    # Open issues includes open issues and PRs.
+    open_issues = repo.get_issues(state="open")
+    closed_issues = repo.get_issues(state="closed")
 
     num_stars = repo.stargazers_count
-    num_issue_open = sum(issue.pull_request is None for issue in issues)
+    num_forks = repo.forks_count
+    num_watchers = repo.subscribers_count
+
+    count = 0
+    for issues in [open_issues, closed_issues]:
+        for issue in issues:
+            remaining_limit = 0
+            while remaining_limit < 100:
+                try:
+                    remaining_limit = g.get_rate_limit().core.remaining
+                except Exception as e:
+                    remaining_limit = 0
+            print(f'[{count}] {issue.pull_request}')
+            count += 1
+
+    num_issue_open = sum(issue.pull_request is None for issue in open_issues)
+    num_issue_closed = sum(issue.pull_request is None for issue in closed_issues)
     issue_labels = repo.get_labels()
-    num_pr_open = issues.totalCount - num_issue_open
-    num_issue_open_no_assignee = sum(issue.pull_request is None and issue.assignee is None for issue in issues)
-    num_issue_open_no_label = sum(issue.pull_request is None and len(issue.labels) == 0 for issue in issues)
+    #num_pr_open = open_issues.totalCount - num_issue_open
+    #num_pr_closed = closed_issues.totalCount - num_issue_closed
+
+    #May need to verify
+    num_issue_open_no_assignee = sum(issue.pull_request is None and issue.assignee is None for issue in open_issues)
+    num_issue_open_no_label = sum(issue.pull_request is None and len(issue.labels) == 0 for issue in open_issues)
+    num_issue_closed_no_assignee = sum(issue.pull_request is None and issue.assignee is None for issue in closed_issues)
+    num_issue_closed_no_label = sum(issue.pull_request is None and len(issue.labels) == 0 for issue in closed_issues)
+
     used_labels = set()
     issue_list = []
-    for issue in issues:
-        row_num = len(df_issue)-1
-        print(row_num)
-        if issue.pull_request is None:
-            print(issue.title)
-            df_issue.loc[row_num, 'Title'] = issue.title
-            df_issue.loc[row_num, 'Name_Repo'] = repo_url
-            df_issue.loc[row_num, 'Date_Created'] = issue.created_at
-            print(issue.comments) # number of comments
-            df_issue.loc[row_num, 'Num_Comment'] = issue.comments
-            print(issue.labels)
-            df_issue.loc[row_num, 'Label_Issue'] = "#".join([label.name for label in issue.labels])
-            print(issue._identity)
-            df_issue.loc[row_num, 'Identity_Repo'] = issue._identity
-            df_issue.loc[row_num, 'Identity_Global'] = issue.id
-            df_issue.loc[row_num, 'Body'] = issue.body
-            issue_list.append(str(issue._identity))
-        used_labels.update(issue.labels)
+
+    # Handle Issue DB
+    for issues in [open_issues, closed_issues]:
+        for issue in issues:
+            row_num = len(df_issue) - 1
+            print(row_num)
+            if issue.pull_request is None:
+                print(issue.assignees)
+                print(issue.title)
+                df_issue.loc[row_num, 'Title'] = issue.title
+                df_issue.loc[row_num, 'Name_Repo'] = repo_url
+                df_issue.loc[row_num, 'State'] = issue.state
+                df_issue.loc[row_num, 'Assignees'] = "#".join(assignee._identity for assignee in issue.assignees)
+                df_issue.loc[row_num, 'Participants'] = issue.user._identity
+                df_issue.loc[row_num, 'Date_Created'] = issue.created_at
+                df_issue.loc[row_num, 'Date_Closed'] = issue.closed_at
+                df_issue.loc[row_num, 'Num_Comment'] = issue.comments
+                df_issue.loc[row_num, 'Label_Issue'] = "#".join([label.name for label in issue.labels])
+                df_issue.loc[row_num, 'Identity_Repo'] = issue._identity
+                df_issue.loc[row_num, 'Identity_Global'] = issue.id
+                df_issue.loc[row_num, 'Body'] = issue.body
+                issue_list.append(str(issue._identity))
+            used_labels.update(issue.labels)
+
+    # Handle Repo DB
+    df_repo.loc[index, 'Issue_Types'] = "#".join([label.name for label in issue_labels])
     df_repo.loc[index, 'IDList_Issue'] = "#".join(issue_list)
 
     print(f'[{repo_url}]')
     print(f'Number of stars: {num_stars}')
     df_repo.loc[index, 'Num_Star'] = num_stars
+
+    print(f'Number of forks: {num_forks}')
+    df_repo.loc[index, 'Num_Fork'] = num_forks
+
+    print(f'Number of watchers: {num_watchers}')
+    df_repo.loc[index, 'Num_Watcher'] = num_watchers
+
+    print(f'Created at: {repo.created_at}')
+    df_repo.loc[index, 'Date_Created'] = repo.created_at
+
+    print(f'Last updated at: {repo.updated_at}')
+    df_repo.loc[index, 'Date_Last_Mod'] = repo.updated_at
+
+    print(f'Number of issues: {num_issue_open}')
+    df_repo.loc[index, 'Num_Issue'] = num_issue_open + num_issue_closed
+
+    print(f'Number of issue types: {issue_labels.totalCount}')
+    df_repo.loc[index, 'Num_Issue_Type'] = issue_labels.totalCount
+
     print(f'Number of open issues: {num_issue_open}')
     df_repo.loc[index, 'Num_Issue_Open'] = num_issue_open
-    print(f'Number of open PRs: {num_pr_open}')
-    df_repo.loc[index, 'Num_PR_Open'] = num_pr_open
+
+    print(f'Number of closed issues: {num_issue_closed}')
+    df_repo.loc[index, 'Num_Issue_Closed'] = num_issue_closed
+
     if num_issue_open > 0:
         print(
             f'Open issues with no assignee: {(num_issue_open_no_assignee / num_issue_open):.2%} ({num_issue_open_no_assignee})')
@@ -73,16 +114,21 @@ for index, paper in df_repo.iterrows():
         print(
             f'Open issues with no label: {(num_issue_open_no_label / num_issue_open):.2%} ({num_issue_open_no_label})')
         df_repo.loc[index, 'Num_Issue_Open_No_Label'] = int(num_issue_open_no_label)
-    print(f'Issue types: {"#".join([label.name for label in issue_labels])}')
-    df_repo.loc[index, 'Issue_Types'] = "#".join([label.name for label in issue_labels])
-    print(f'Number of issue types: {issue_labels.totalCount}')
-    df_repo.loc[index, 'Num_Issue_Type'] = int(issue_labels.totalCount)
-    if issue_labels.totalCount > 0:
+
+    if num_issue_closed > 0:
         print(
-            f'Unused issue types: {(issue_labels.totalCount - len(used_labels)) / issue_labels.totalCount:.2%} ({issue_labels.totalCount - len(used_labels)})')
+            f'Closed issues with no assignee: {(num_issue_closed_no_assignee / num_issue_closed):.2%} ({num_issue_closed_no_assignee})')
+        df_repo.loc[index, 'Num_Issue_Closed_No_Assignee'] = int(num_issue_closed_no_assignee)
+        print(
+            f'Closed issues with no label: {(num_issue_closed_no_label / num_issue_closed):.2%} ({num_issue_closed_no_label})')
+        df_repo.loc[index, 'Num_Issue_Closed_No_Label'] = int(num_issue_closed_no_label)
+
+    if issue_labels.totalCount > 0:
+        print(f'Unused issue types: {(issue_labels.totalCount - len(used_labels)) / issue_labels.totalCount:.2%} ({issue_labels.totalCount - len(used_labels)})')
+
         df_repo.loc[index, 'Num_Issue_Type_Unused'] = int(issue_labels.totalCount - len(used_labels))
     else:
         df_repo.loc[index, 'Num_Issue_Type_Unused'] = 0
 
     df_repo.to_csv(repo_src, index=False)
-    df_issue.to_csv(issue_src, index=False)
+    df_issue.to_csv(issue_src, index=False, mode='a', header=False)
