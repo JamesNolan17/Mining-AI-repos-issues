@@ -1,8 +1,13 @@
 import pandas as pd
 
 
-df_repo = pd.read_csv('repoDB.csv')
-df_issue = pd.read_csv('issueDB_OPEN.csv')
+#df_repo = pd.read_csv('repoDB.csv')
+df_issue = pd.read_csv('issueDB.csv').drop_duplicates()
+df_issue.to_csv('issueDB.csv', index=False)
+exit(0)
+
+
+
 
 
 
