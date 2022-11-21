@@ -14,10 +14,10 @@ for index, paper in df_repo.iterrows():
     if issue_string == 'nan':
         issue_list = []
     else:
-        issue_list = [int(i) for i in issue_string.split('#')]
+        issue_list = sorted([int(i) for i in issue_string.split('#')])
     #print(issue_list)
     issue_df = df_issue.query(f"`Name_Repo` == '{repo_name}'")['Identity_Repo']
-    issue_list_real = [int(i) for i in issue_df.tolist()]
+    issue_list_real = sorted([int(i) for i in issue_df.tolist()])
     if issue_list_real != issue_list:
         print(repo_name)
         print(f'Issue list recorded in repoDB: {len(issue_list)}-{issue_list}')
