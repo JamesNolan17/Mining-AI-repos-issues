@@ -64,7 +64,7 @@ for index, paper in df_repo.iterrows():
                 df_issue.loc[row_num, 'Name_Repo'] = repo_url
                 df_issue.loc[row_num, 'State'] = issue.state
                 df_issue.loc[row_num, 'Assignees'] = "#".join(assignee._identity for assignee in issue.assignees)
-                df_issue.loc[row_num, 'Participants'] = issue.user._identity
+                df_issue.loc[row_num, 'Proposed_By'] = issue.user._identity
                 df_issue.loc[row_num, 'Date_Created'] = issue.created_at
                 df_issue.loc[row_num, 'Date_Closed'] = issue.closed_at
                 df_issue.loc[row_num, 'Num_Comment'] = issue.comments
