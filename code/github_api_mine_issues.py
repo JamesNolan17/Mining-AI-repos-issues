@@ -1,7 +1,7 @@
 import pandas as pd
 from github_token import *
 import time
-repo_src = 'repoDB_RAW.csv'
+repo_src = 'repoDB_RM_NON_GH.csv'
 issue_src = 'issueDB.csv'
 
 name_to_record = "frgfm/Holocron"

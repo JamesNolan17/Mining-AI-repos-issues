@@ -22,19 +22,9 @@ conference_ids = [_.lower() for _ in [
     "AAMAS"
 ]]
 
-#conference_ids = [_.lower() for _ in [
-    #"ICLR",
-    #"AAAI",
-    #"ACL",
-    #"SIGKDD",
-    #"AAMAS"
-#]]
-
 # Constrain 2: Year Limit
-#year_limit = [2013,2018]
-year_limit = [2019,2021]
+year_limit = [2012,2022]
 
-# conference_ids = ["aaai"] # For testing
 paper_list = []
 for conference_id in conference_ids:
     try:
@@ -72,6 +62,8 @@ for paper in paper_list:
                     {'Name_Repo': name_repo,
                      'Name_Paper': name_paper,
                      'Conference_Paper': conference_paper,
+                     'URL_Repo': result.url,
+                     'URL_Paper': paper.url_pdf,
                      'Year_Paper': year,
                      'Framework': framework
                      }, ignore_index=True)
