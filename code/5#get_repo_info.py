@@ -4,8 +4,8 @@ repo_input_src = 'repoDB_RM_NESTED.csv'
 repo_output_src = 'repoDB.csv'
 issue_src = 'issueDB.csv'
 
-name_to_record = "open-mmlab/mmdetection"
-start = False
+name_to_record = ""
+start = True
 
 df_repo = pd.read_csv(repo_input_src)
 for index, paper in df_repo.iterrows():
