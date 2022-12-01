@@ -1,7 +1,7 @@
 import pandas as pd
 from github_token import *
 import time
-repo_src = 'repoDB.csv'
+repo_src = 'repoDB_RAW.csv'
 
 df_repo = pd.read_csv(repo_src, encoding='latin-1')
 for index, paper in df_repo.iterrows():

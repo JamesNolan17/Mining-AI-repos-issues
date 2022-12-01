@@ -4,8 +4,6 @@ import json
 import time
 start = time.time()
 
-
-while True:
-    print(g.get_rate_limit())
-
-
+pwc = pd.read_csv('pwc.csv')
+unique_conference = pwc["conference"].unique()
+print(unique_conference)

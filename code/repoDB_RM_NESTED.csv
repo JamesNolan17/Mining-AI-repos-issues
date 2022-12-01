@@ -1,0 +1,385 @@
+Name_Repo,Name_Paper,Conference_Paper,Year_Paper,Framework
+emtiyaz/vmp-for-svae,Variational Message Passing with Structured Inference Networks,iclr,2018,tf
+Bojian/Hilbert-CNN,An image representation based convolutional network for DNA classification,iclr,2018,tf
+alexhernandezgarcia/data-aug-invariance,Data augmentation instead of explicit regularization,iclr,2018,tf
+lmb-freiburg/td-or-not-td,TD or not TD: Analyzing the Role of Temporal Differencing in Deep Reinforcement Learning,iclr,2018,tf
+suyoung-lee/Episodic-Backward-Update,Sample-Efficient Deep Reinforcement Learning via Episodic Backward Update,iclr,2018,none
+jramapuram/LifelongVAE_pytorch,Lifelong Generative Modeling,iclr,2018,pytorch
+YichenGong/Densely-Interactive-Inference-Network,Natural Language Inference over Interaction Space,iclr,2018,tf
+yihanjiang/Sequential-RNN-Decoder,Communication Algorithms via Deep Learning,iclr,2018,pytorch
+alexnowakvila/DiCoNet,Divide and Conquer Networks,iclr,2018,pytorch
+Microsoft/PixelDefend,PixelDefend: Leveraging Generative Models to Understand and Defend against Adversarial Examples,iclr,2018,tf
+khetan2/MBEM,Learning From Noisy Singly-labeled Data,iclr,2018,mxnet
+kabkabm/defensegan,Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models,iclr,2018,tf
+tomas-angles/generative-scattering-networks,Generative networks as inverse problems with Scattering transforms,iclr,2018,pytorch
+houlu369/Loss-aware-weight-quantization,Loss-aware Weight Quantization of Deep Networks,iclr,2018,none
+Babylonpartners/decoding-decoders,Decoding Decoders: Finding Optimal Representation Spaces for Unsupervised Similarity Tasks,iclr,2018,tf
+BorealisAI/bre-gan,Improving GAN Training via Binarized Representation Entropy (BRE) Regularization,iclr,2018,tf
+jdongca2003/next_utterance_selection,Enhance word representation for out-of-vocabulary on Ubuntu dialogue corpus,iclr,2018,tf
+Microsoft/graph-based-code-modelling,Learning to Represent Programs with Graphs,iclr,2018,tf
+vihari/crossgrad,Generalizing Across Domains via Cross-Gradient Training,iclr,2018,tf
+ducha-aiki/LSUVinit,All you need is a good init,iclr,2015,pytorch
+jiesutd/NCRFpp,NCRF++: An Open-source Neural Sequence Labeling Toolkit,acl,2018,pytorch
+thunlp/Character-enhanced-Sememe-Prediction,Incorporating Chinese Characters of Words for Lexical Sememe Prediction,acl,2018,none
+ghdi6758/SemAxis,SemAxis: A Lightweight Framework to Characterize Domain-Specific Word Semantics Beyond Sentiment,acl,2018,none
+rktamplayo/HCSC,Cold-Start Aware User and Product Attention for Sentiment Classification,acl,2018,tf
+raosudha89/ranking_clarification_questions,Learning to Ask Good Questions: Ranking Clarification Questions using Neural Expected Value of Perfect Information,acl,2018,none
+ruidan/Aspect-level-sentiment,Exploiting Document Knowledge for Aspect-level Sentiment Classification,acl,2018,tf
+shuohangwang/comatch,A Co-Matching Model for Multi-choice Reading Comprehension,acl,2018,pytorch
+qyyin/Reinforce4ZP,Deep Reinforcement Learning for Chinese Zero pronoun Resolution,acl,2018,pytorch
+lancopku/Global-Encoding,Global Encoding for Abstractive Summarization,acl,2018,pytorch
+PKU-TANGENT/SciDTB,SciDTB: Discourse Dependency TreeBank for Scientific Abstracts,acl,2018,none
+clic-lab/scone,Situated Mapping of Sequential Instructions to Actions with Single-step Reward Observation,acl,2018,none
+facebookresearch/hypernymysuite,Hearst Patterns Revisited: Automatic Hypernym Detection from Large Text Corpora,acl,2018,none
+benathi/multisense-prob-fasttext,Probabilistic FastText for Multi-Sense Word Embeddings,acl,2018,none
+Group-TanakaIshii/word_taylor,Taylor's law for Human Linguistic Sequences,acl,2018,none
+sandropezzelle/fill-in-the-quant,Some of Them Can be Guessed! Exploring the Effect of Linguistic Context in Predicting Quantifiers,acl,2018,none
+Justin1904/Low-rank-Multimodal-Fusion,Efficient Low-rank Multimodal Fusion with Modality-Specific Factors,acl,2018,pytorch
+jiesutd/LatticeLSTM,Chinese NER Using Lattice LSTM,acl,2018,pytorch
+duorc/duorc,DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension,acl,2018,none
+gozdesahin/Subword_Semantic_Role_Labeling,Character-Level Models versus Morphology in Semantic Role Labeling,acl,2018,pytorch
+madhavcsa/TFBA,Higher-order Relation Schema Induction using Tensor Factorization with Back-off and Aggregation,acl,2018,none
+Oneplus/twpipe,Distilling Knowledge for Search-based Structured Prediction,acl,2018,none
+Katsumata420/HITS_Ranking,Graph-based Filtering of Out-of-Vocabulary Words for Encoder-Decoder Models,acl,2018,none
+ChenRocks/fast_abs_rl,Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting,acl,2018,pytorch
+awslabs/sockeye,A Stochastic Decoder for Neural Machine Translation,acl,2018,mxnet
+kingsaint/Open-vocabulary-entity-type-description,Generating Fine-Grained Open Vocabulary Entity Type Descriptions,acl,2018,pytorch
+xrc10/cross-distill,Cross-lingual Distillation for Text Classification,acl,2017,none
+mike-n-7/ADEM,Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses,acl,2017,none
+jacobandreas/neuralese,Translating Neuralese,acl,2017,tf
+snakeztc/NeuralDialog-CVAE,Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders,acl,2017,tf
+pilehvar/sensecnn,Towards a Seamless Integration of Word Senses into Downstream NLP Applications,acl,2017,none
+cheng6076/virnng,A Generative Parser with a Discriminative Recognition Algorithm,acl,2017,none
+oceanypt/DR_RE,Jointly Extracting Relations with Class Ties via Effective Deep Ranking,acl,2017,none
+janmbuys/DeepDeepParser,Robust Incremental Neural Semantic Graph Parsing,acl,2017,tf
+howardchenhd/Syntax-awared-NMT,Improved Neural Machine Translation with a Syntax-Aware Encoder and Decoder,acl,2017,none
+Noahs-ARK/idea_relations,"Friendships, Rivalries, and Trysts: Characterizing Relations between Ideas in Texts",acl,2017,none
+gchrupala/visually-grounded-speech,Representations of language in a model of visually grounded speech signal,acl,2017,none
+cheng6076/scanner,Learning Structured Natural Language Representations for Semantic Parsing,acl,2017,none
+wanghm92/Sing_Par,Universal Dependencies Parsing for Colloquial Singaporean English,acl,2017,tf
+boknilev/nmt-repr-analysis,What do Neural Machine Translation Models Learn about Morphology?,acl,2017,pytorch
+MarkWuNLP/MultiTurnResponseSelection,Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots,acl,2017,tf
+qipeng/arc-swift,Arc-swift: A Novel Transition System for Dependency Parsing,acl,2017,tf
+takase/relPatSim,Composing Distributed Representations of Relational Patterns,acl,2016,none
+jcyk/CWS,Neural Word Segmentation Learning for Chinese,acl,2016,none
+chenych11/lm,Compressing Neural Language Models by Sparse Word Representations,acl,2016,none
+ivri/DiffVec,"Take and Took, Gaggle and Goose, Book and Read: Evaluating the Utility of Vector Differences for Lexical Relation Learning",acl,2016,none
+danqi/rc-cnn-dailymail,A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task,acl,2016,none
+tuzhaopeng/NMT-Coverage,Modeling Coverage for Neural Machine Translation,acl,2016,none
+stanfordnlp/spinn,A Fast Unified Model for Parsing and Sentence Understanding,acl,2016,none
+bplank/bilstm-aux,Multilingual Part-of-Speech Tagging with Bidirectional Long Short-Term Memory Models and Auxiliary Loss,acl,2016,none
+microth/PathLSTM,Neural Semantic Role Labeling with Dependency Path Embeddings,acl,2016,none
+rkadlec/asreader,Text Understanding with the Attention Sum Reader Network,acl,2016,none
+rsennrich/subword-nmt,Neural Machine Translation of Rare Words with Subword Units,acl,2016,none
+LPMP/LPMP,MAP inference via Block-Coordinate Frank-Wolfe Algorithm,cvpr,2019,pytorch
+cihangxie/DI-2-FGSM,Improving Transferability of Adversarial Examples with Input Diversity,cvpr,2019,tf
+coolsunxu/sophie,SoPhie: An Attentive GAN for Predicting Paths Compliant to Social and Physical Constraints,cvpr,2019,pytorch
+xingyul/flownet3d,FlowNet3D: Learning Scene Flow in 3D Point Clouds,cvpr,2019,tf
+cyvius96/adgpm,Rethinking Knowledge Graph Propagation for Zero-Shot Learning,cvpr,2019,pytorch
+CVRL/human-model-similarity,A Neurobiological Evaluation Metric for Neural Network Model Search,cvpr,2019,none
+anuragranj/cc,"Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation",cvpr,2019,pytorch
+twke18/Adversarial_Structure_Matching,Adversarial Structure Matching for Structured Prediction Tasks,cvpr,2019,tf
+cocodataset/panopticapi,Panoptic Segmentation,cvpr,2019,none
+anshulbshah/Blurred-Image-to-Video,Bringing Alive Blurred Moments,cvpr,2019,none
+lorenmt/mtan,End-to-End Multi-Task Learning with Attention,cvpr,2019,pytorch
+danini/magsac,MAGSAC: marginalizing sample consensus,cvpr,2019,none
+ethanygao/NDDR-CNN,NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction,cvpr,2019,tf
+deepinsight/insightface,ArcFace: Additive Angular Margin Loss for Deep Face Recognition,cvpr,2019,pytorch
+iVMCL/AOGNets,AOGNets: Compositional Grammatical Architectures for Deep Learning,cvpr,2019,pytorch
+javiribera/locating-objects-without-bboxes,Locating Objects Without Bounding Boxes,cvpr,2019,pytorch
+aimagelab/novelty-detection,Latent Space Autoregression for Novelty Detection,cvpr,2019,pytorch
+GuoShi28/CBDNet,Toward Convolutional Blind Denoising of Real Photographs,cvpr,2019,none
+lizhitwo/ConfidenceEstimates,Improving Confidence Estimates for Unfamiliar Examples,cvpr,2020,pytorch
+msraig/pfcnn,PFCNN: Convolutional Neural Networks on 3D Surfaces Using Parallel Frames,cvpr,2020,none
+benyv/uncord,VQA with no questions-answers training,cvpr,2020,none
+Sha-Lab/FEAT,Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions,cvpr,2020,pytorch
+princeton-computational-imaging/SeeingThroughFog,Seeing Through Fog Without Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather,cvpr,2020,tf
+prasunroy/stefann,STEFANN: Scene Text Editor using Font Adaptive Neural Network,cvpr,2020,tf
+akanimax/msg-stylegan-tf,MSG-GAN: Multi-Scale Gradients for Generative Adversarial Networks,cvpr,2020,tf
+nutonomy/nuscenes-devkit,nuScenes: A multimodal dataset for autonomous driving,cvpr,2020,none
+microsoft/SGN,Semantics-Guided Neural Networks for Efficient Skeleton-Based Human Action Recognition,cvpr,2020,pytorch
+3DVisionISR/3DRegNet,3DRegNet: A Deep Neural Network for 3D Point Registration,cvpr,2020,tf
+microsoft/Relation-Aware-Global-Attention-Networks,Relation-Aware Global Attention for Person Re-identification,cvpr,2020,pytorch
+open-mmlab/mmdetection,Prime Sample Attention in Object Detection,cvpr,2020,pytorch
+tancik/StegaStamp,StegaStamp: Invisible Hyperlinks in Physical Photographs,cvpr,2020,tf
+kulikovv/harmonic,Instance Segmentation of Biological Images Using Harmonic Embeddings,cvpr,2020,pytorch
+nnaisense/deep-iterative-surface-normal-estimation,Deep Iterative Surface Normal Estimation,cvpr,2020,pytorch
+wuyuebupt/doubleheadsrcnn,Rethinking Classification and Localization for Object Detection,cvpr,2020,pytorch
+dmsm/DeepParametricShapes,Deep Parametric Shape Predictions using Distance Fields,cvpr,2020,pytorch
+facebookresearch/you2me,You2Me: Inferring Body Pose in Egocentric Video via First and Second Person Interactions,cvpr,2020,pytorch
+cmu-enyac/LeGR,Towards Efficient Model Compression via Learned Global Ranking,cvpr,2020,pytorch
+lzqsd/InverseRenderingOfIndoorScene,"Inverse Rendering for Complex Indoor Scenes: Shape, Spatially-Varying Lighting and SVBRDF from a Single Image",cvpr,2020,pytorch
+neuroailab/VIE,Unsupervised Learning from Video with Deep Neural Embeddings,cvpr,2020,tf
+SLDGroup/NN_Mass,How does topology of neural architectures impact gradient propagation and model performance?,cvpr,2021,pytorch
+aupendu/sr-uncertainty,Fast Bayesian Uncertainty Estimation and Reduction of Batch Normalized Single Image Super-Resolution Network,cvpr,2021,pytorch
+XiaoxiaoGuo/fashion-iq,Fashion IQ: A New Dataset Towards Retrieving Images by Natural Language Feedback,cvpr,2021,pytorch
+hendrycks/natural-adv-examples,Natural Adversarial Examples,cvpr,2021,pytorch
+hding2455/DSC,Deeply Shape-guided Cascade for Instance Segmentation,cvpr,2021,pytorch
+fredfung007/snlt,Siamese Natural Language Tracker: Tracking by Natural Language Descriptions with Siamese Trackers,cvpr,2021,pytorch
+lolemacs/avagrad,Domain-independent Dominance of Adaptive Methods,cvpr,2021,pytorch
+guochengqian/PU-GCN,PU-GCN: Point Cloud Upsampling using Graph Convolutional Networks,cvpr,2021,tf
+anonymous-p/Flickering_Adversarial_Video,Over-the-Air Adversarial Flickering Attacks against Video Recognition Networks,cvpr,2021,pytorch
+Howal/Cross-iterationBatchNorm,Cross-Iteration Batch Normalization,cvpr,2021,pytorch
+Boyiliee/MoEx,On Feature Normalization and Data Augmentation,cvpr,2021,pytorch
+kinredon/umt,Unbiased Mean Teacher for Cross-domain Object Detection,cvpr,2021,pytorch
+alldbi/SuperMix,SuperMix: Supervising the Mixing Data Augmentation,cvpr,2021,pytorch
+hasanirtiza/Pedestron,Generalizable Pedestrian Detection: The Elephant In The Room,cvpr,2021,pytorch
+mahmoudnafifi/Exposure_Correction,Learning Multi-Scale Photo Exposure Correction,cvpr,2021,none
+ShuhangGu/DASR,Unsupervised Real-world Image Super Resolution via Domain-distance Aware Training,cvpr,2021,pytorch
+fei960922/GPointNet,"Generative PointNet: Deep Energy-Based Learning on Unordered Point Sets for 3D Generation, Reconstruction and Classification",cvpr,2021,pytorch
+facebookresearch/AVID-CMA,Audio-Visual Instance Discrimination with Cross-Modal Agreement,cvpr,2021,pytorch
+tensorflow/models,MobileDets: Searching for Object Detection Architectures for Mobile Accelerators,cvpr,2021,tf
+sanjaykariyappa/maze,MAZE: Data-Free Model Stealing Attack Using Zeroth-Order Gradient Estimation,cvpr,2021,pytorch
+XinshaoAmosWang/ProSelfLC-CVPR2021,ProSelfLC: Progressive Self Label Correction for Training Robust Deep Neural Networks,cvpr,2021,pytorch
+shrezaei/MI-Attack,On the Difficulty of Membership Inference Attacks,cvpr,2021,tf
+quanvuong/Supervised_Policy_Update,Supervised Policy Update for Deep Reinforcement Learning,iclr,2019,tf
+openai/random-network-distillation,Exploration by Random Network Distillation,iclr,2019,tf
+srxdev0619/Latent_Convolutional_Models,Latent Convolutional Models,iclr,2019,pytorch
+pliang279/factorized,Learning Factorized Multimodal Representations,iclr,2019,pytorch
+rahafaljundi/Selfless-Sequential-Learning,Selfless Sequential Learning,iclr,2019,pytorch
+benathi/fastswa-semi-sup,There Are Many Consistent Explanations of Unlabeled Data: Why You Should Average,iclr,2019,pytorch
+csinva/hierarchical-dnn-interpretations,Hierarchical interpretations for neural network predictions,iclr,2019,pytorch
+vikasverma1077/manifold_mixup,Manifold Mixup: Better Representations by Interpolating Hidden States,iclr,2019,pytorch
+ceisenach/MPG,Marginal Policy Gradients: A Unified Family of Estimators for Bounded Action Spaces with Applications,iclr,2019,pytorch
+WenboGong/MetaSGMCMC,Meta-Learning for Stochastic Gradient MCMC,iclr,2019,pytorch
+yasinyazici/EMA_GAN,The Unusual Effectiveness of Averaging in GAN Training,iclr,2019,none
+hyang1990/model_based_energy_constrained_compression,Energy-Constrained Compression for Deep Neural Networks via Weighted Sparse Projection and Layer Input Masking,iclr,2019,pytorch
+vtjeng/MIPVerify.jl,Evaluating Robustness of Neural Networks with Mixed Integer Programming,iclr,2019,none
+ftramer/slalom,"Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware",iclr,2019,tf
+facebookresearch/spreadingvectors,Spreading vectors for similarity search,iclr,2019,pytorch
+GuyLor/direct_vae,Direct Optimization through $\arg \max$ for Discrete Variational Auto-Encoder,iclr,2019,pytorch
+deepmind/spectral_inference_networks,Spectral Inference Networks: Unifying Deep and Spectral Learning,iclr,2019,tf
+ratschlab/SOM-VAE,SOM-VAE: Interpretable Discrete Representation Learning on Time Series,iclr,2019,tf
+dexgen/backdrop,Backdrop: Stochastic Backpropagation,iclr,2019,pytorch
+ml4tp/gamepad,GamePad: A Learning Environment for Theorem Proving,iclr,2019,none
+AliaksandrSiarohin/wc-gan,Whitening and Coloring batch transform for GANs,iclr,2019,tf
+Gordonjo/versa,Meta-Learning Probabilistic Inference For Prediction,iclr,2019,tf
+AzulEye/CNN-Failures,Why do deep convolutional networks generalize so poorly to small image transformations?,iclr,2019,pytorch
+swing-research/deepmesh,Random mesh projectors for inverse problems,iclr,2019,tf
+facebookresearch/AdversarialAndDimensionality,First-order Adversarial Vulnerability of Neural Networks and Input Dimension,iclr,2019,pytorch
+csm9493/GAN2GAN,GAN2GAN: Generative Noise Learning for Blind Denoising with Single Noisy Images,iclr,2021,pytorch
+datake/AdaGCN,AdaGCN: Adaboosting Graph Convolutional Networks into Deep Models,iclr,2021,pytorch
+iamalexkorotin/Wasserstein2GenerativeNetworks,Wasserstein-2 Generative Networks,iclr,2021,pytorch
+brendenpetersen/deep-symbolic-regression,Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients,iclr,2021,none
+dibyaghosh/gcsl,Learning to Reach Goals via Iterated Supervised Learning,iclr,2021,pytorch
+patrick-kidger/signatory,"Signatory: differentiable computations of the signature and logsignature transforms, on both CPU and GPU",iclr,2021,pytorch
+zalandoresearch/pytorch-ts,Multivariate Probabilistic Time Series Forecasting via Conditioned Normalizing Flows,iclr,2021,pytorch
+henrygouk/mars-finetuning,Distance-Based Regularisation of Deep Networks for Fine-Tuning,iclr,2021,tf
+reactive-systems/deepltl,Teaching Temporal Logics to Neural Networks,iclr,2021,tf
+qualcomm-ai-research/gauge-equivariant-mesh-cnn,Gauge Equivariant Mesh CNNs: Anisotropic convolutions on geometric graphs,iclr,2021,pytorch
+MichaelArbel/GeneralizedEBM,Generalized Energy Based Models,iclr,2021,pytorch
+liamcli/gaea_release,Geometry-Aware Gradient Algorithms for Neural Architecture Search,iclr,2021,pytorch
+pytorch/fairseq,Training with Quantization Noise for Extreme Model Compression,iclr,2021,pytorch
+XuezheMax/wolf,Decoupling Global and Local Representations via Invertible Generative Flows,iclr,2021,pytorch
+denisyarats/drq,Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels,iclr,2021,pytorch
+NVIDIA/flowtron,Flowtron: an Autoregressive Flow-based Generative Network for Text-to-Speech Synthesis,iclr,2021,pytorch
+yellowshippo/isogcn-iclr2021,Isometric Transformation Invariant and Equivariant Graph Convolutional Networks,iclr,2021,none
+aletcher/impossibility-global-convergence,On the Impossibility of Global Convergence in Multi-Loss Optimization,iclr,2021,none
+point0bar1/ebm-defense,Stochastic Security: Adversarial Defense Using Long-Run Dynamics of Energy-Based Models,iclr,2021,pytorch
+epfml/LocalSGD-Code,"Don't Use Large Mini-Batches, Use Local SGD",iclr,2020,pytorch
+011235813/cm3,CM3: Cooperative Multi-goal Multi-stage Multi-agent Reinforcement Learning,iclr,2020,tf
+nrhine1/deep_imitative_models,"Deep Imitative Models for Flexible Inference, Planning, and Control",iclr,2020,none
+liuanji/WU-UCT,Watch the Unobserved: A Simple Approach to Parallelizing Monte Carlo Tree Search,iclr,2020,pytorch
+ts66395/MaSS,Accelerating SGD with momentum for over-parameterized learning,iclr,2020,tf
+nabihach/IDA,Progressive Memory Banks for Incremental Domain Adaptation,iclr,2020,pytorch
+pclucas14/GansFallingShort,Language GANs Falling Short,iclr,2020,pytorch
+BorealisAI/mma_training,MMA Training: Direct Input Space Margin Maximization through Adversarial Training,iclr,2020,pytorch
+princeton-vl/DeepV2D,DeepV2D: Video to Depth with Differentiable Structure from Motion,iclr,2020,tf
+ruqizhang/csgmcmc,Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning,iclr,2020,pytorch
+kcyu2014/eval-nas,Evaluating the Search Phase of Neural Architecture Search,iclr,2020,pytorch
+iclr2020-apd/anonymous_iclr2020_apd_code,Scalable and Order-robust Continual Learning with Additive Parameter Decomposition,iclr,2020,tf
+tensorflow/tensor2tensor,VideoFlow: A Conditional Flow-Based Model for Stochastic Video Generation,iclr,2020,tf
+google-research/meta-dataset,Meta-Dataset: A Dataset of Datasets for Learning to Learn from Few Examples,iclr,2020,tf
+JiahuiYu/slimmable_networks,AutoSlim: Towards One-Shot Architecture Search for Channel Numbers,iclr,2020,pytorch
+ParthaEth/Regularized_autoencoders-RAE-,From Variational to Deterministic Autoencoders,iclr,2020,none
+xuelin-chen/pcl2pcl-gan-pub,Unpaired Point Cloud Completion on Real Scans using Adversarial Training,iclr,2020,tf
+dmzou/RSRAE,Robust Subspace Recovery Layer for Unsupervised Anomaly Detection,iclr,2020,tf
+google-research/disentanglement_lib,Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations,icml,2019,tf
+huangwl18/modular-rl,One Policy to Control Them All: Shared Modular Policies for Agent-Agnostic Control,icml,2020,pytorch
+runopti/stg,Feature Selection using Stochastic Gates,icml,2020,pytorch
+jfc43/advex,Concise Explanations of Neural Networks using Adversarial Training,icml,2020,tf
+eugenium/DGL,Decoupled Greedy Learning of CNNs,icml,2020,pytorch
+AlekseiTriastcyn/bayesian-differential-privacy,Bayesian Differential Privacy for Machine Learning,icml,2020,pytorch
+xcgoner/iclr2020_zeno_async,Zeno++: Robust Fully Asynchronous SGD,icml,2020,mxnet
+ntienvu/KnownOptimum_BO,Knowing The What But Not The Where in Bayesian Optimization,icml,2020,none
+tstandley/taskgrouping,Which Tasks Should Be Learned Together in Multi-task Learning?,icml,2020,pytorch
+c-hofer/graph_filtration_learning,Graph Filtration Learning,icml,2020,pytorch
+BorealisAI/CP-VAE,On Variational Learning of Controllable Representations for Text without Supervision,icml,2020,pytorch
+insuhan/polytensorsketch,Polynomial Tensor Sketch for Element-wise Function of Low-Rank Matrix,icml,2020,none
+marwash25/non-sub-min,Optimal approximation for unconstrained non-submodular minimization,icml,2020,none
+shentianxiao/text-autoencoders,Educating Text Autoencoders: Latent Representation Guidance via Denoising,icml,2020,pytorch
+facebookresearch/EGG,Entropy Minimization In Emergent Languages,icml,2020,pytorch
+boseon-ai/Conditional-Temporal-Neural-Processes-with-Covariance-Loss,Conditional Temporal Neural Processes with Covariance Loss,icml,2021,none
+irwinherrmann/stochastic-gates,Channel selection using Gumbel Softmax,eccv,2020,pytorch
+LiYingwei/Regional-Homogeneity,Regional Homogeneity: Towards Learning Transferable Universal Adversarial Perturbations Against Defenses,eccv,2020,tf
+yaoyao-liu/E3BM,An Ensemble of Epoch-wise Empirical Bayes for Few-shot Learning,eccv,2020,pytorch
+shengcailiao/QAConv,Interpretable and Generalizable Person Re-Identification with Query-Adaptive Convolution and Temporal Lifting,eccv,2020,pytorch
+holistic-video-understanding/HVU-Dataset,Large Scale Holistic Video Understanding,eccv,2020,none
+VisionLearningGroup/SANE,Why do These Match? Explaining the Behavior of Image Similarity Models,eccv,2020,pytorch
+HobbitLong/CMC,Contrastive Multiview Coding,eccv,2020,pytorch
+tensorflow/tpu,Learning Data Augmentation Strategies for Object Detection,eccv,2020,tf
+unibas-gravis/icp-proposal,A Closest Point Proposal for MCMC-based Probabilistic Surface Registration,eccv,2020,none
+bertjiazheng/Structured3D,Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling,eccv,2020,none
+barisgecer/TBGAN,Synthesizing Coupled 3D Face Modalities by Trunk-Branch Generative Adversarial Networks,eccv,2020,tf
+JirongZhang/DeepHomography,Content-Aware Unsupervised Deep Homography Estimation,eccv,2020,pytorch
+gilshm/zap,Thanks for Nothing: Predicting Zero-Valued Activations with Lightweight Convolutional Neural Networks,eccv,2020,pytorch
+openseg-group/openseg.pytorch,Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation,eccv,2020,pytorch
+fregu856/ebms_regression,Energy-Based Models for Deep Probabilistic Regression,eccv,2020,pytorch
+ChenRocks/UNITER,UNITER: UNiversal Image-TExt Representation Learning,eccv,2020,pytorch
+Zhongdao/Towards-Realtime-MOT,Towards Real-Time Multi-Object Tracking,eccv,2020,pytorch
+taoyang1122/MutualNet,MutualNet: Adaptive ConvNet via Mutual Learning from Network Width and Resolution,eccv,2020,pytorch
+google-research/noisy-fewshot-learning,Graph convolutional networks for learning with few clean and many noisy labels,eccv,2020,pytorch
+tyler-hayes/REMIND,REMIND Your Neural Network to Prevent Catastrophic Forgetting,eccv,2020,pytorch
+XudongLinthu/context-gated-convolution,Context-Gated Convolution,eccv,2020,pytorch
+jiahaowork/idam,Iterative Distance-Aware Similarity Matrix Convolution with Mutual-Supervised Point Elimination for Efficient Point Cloud Registration,eccv,2020,pytorch
+jiangzhengkai/LSTS,Learning Where to Focus for Efficient Video Object Detection,eccv,2020,mxnet
+fairnas/FairNAS,FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search,iccv,2021,pytorch
+yoojy31/mdod,Training Multi-Object Detector by Estimating Bounding Box Distribution for Input Image,iccv,2021,pytorch
+facebookresearch/GDT,On Compositions of Transformations in Contrastive Self-Supervised Learning,iccv,2021,pytorch
+csbhr/Deep-Blind-VSR,Deep Blind Video Super-resolution,iccv,2021,pytorch
+shawnxyang/tip-im,Towards Face Encryption by Generating Adversarial Identity Masks,iccv,2021,pytorch
+dvlab-research/Robust-Semantic-Segmentation,Dynamic Divide-and-Conquer Adversarial Training for Robust Semantic Segmentation,iccv,2021,pytorch
+hujiecpp/NAD,Architecture Disentanglement for Deep Neural Networks,iccv,2021,pytorch
+Vision-CAIR/LTVRR,Exploring Long Tail Visual Relationship Recognition with Large Vocabulary,iccv,2021,pytorch
+clvcooke/virtual-fluorescence,Physics-enhanced machine learning for virtual fluorescence microscopy,iccv,2021,pytorch
+idstcv/coins,Weakly Supervised Representation Learning with Coarse Labels,iccv,2021,pytorch
+njuhuojing/mast,Manifold Alignment for Semantically Aligned Style Transfer,iccv,2021,pytorch
+modelstreaming/ams,Real-Time Video Inference on Edge Devices via Adaptive Model Streaming,iccv,2021,tf
+pavlo-melnyk/mlgp-embedme,Embed Me If You Can: A Geometric Perceptron,iccv,2021,pytorch
+clovaai/tunit,Rethinking the Truly Unsupervised Image-to-Image Translation,iccv,2021,pytorch
+slerman12/ExplainingInteractions,"Explaining Local, Global, And Higher-Order Interactions In Deep Learning",iccv,2021,pytorch
+lgcnsai/ps-kd-pytorch,Self-Knowledge Distillation with Progressive Refinement of Targets,iccv,2021,pytorch
+hendrycks/imagenet-r,The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization,iccv,2021,pytorch
+DingXiaoH/ResRep,ResRep: Lossless CNN Pruning via Decoupling Remembering and Forgetting,iccv,2021,pytorch
+fangwei123456/Parametric-Leaky-Integrate-and-Fire-Spiking-Neuron,Incorporating Learnable Membrane Time Constant to Enhance Learning of Spiking Neural Networks,iccv,2021,pytorch
+bknyaz/sgg,Generative Compositional Augmentations for Scene Graph Prediction,iccv,2021,pytorch
+ningyu1991/ArtificialGANFingerprints,Artificial Fingerprinting for Generative Models: Rooting Deepfake Attribution in Training Data,iccv,2021,pytorch
+loyoyang/decota,Deep Co-Training with Task Decomposition for Semi-Supervised Domain Adaptation,iccv,2021,pytorch
+Arthur151/ROMP,"Monocular, One-stage, Regression of Multiple 3D People",iccv,2021,pytorch
+Mattdl/ContinualPrototypeEvolution,Continual Prototype Evolution: Learning Online from Non-Stationary Data Streams,iccv,2021,pytorch
+wbw520/scouter,SCOUTER: Slot Attention-based Classifier for Explainable Image Recognition,iccv,2021,pytorch
+lemmersj/ground-truth-or-daer,Ground-truth or DAER: Selective Re-query of Secondary Information,iccv,2021,pytorch
+wonchulSon/DGKD,Densely Guided Knowledge Distillation using Multiple Teacher Assistants,iccv,2021,pytorch
+Alibaba-MIIL/ASL,Asymmetric Loss For Multi-Label Classification,iccv,2021,pytorch
+hansen7/OcCo,Unsupervised Point Cloud Pre-Training via Occlusion Completion,iccv,2021,pytorch
+JiahuiYu/generative_inpainting,Free-Form Image Inpainting with Gated Convolution,iccv,2019,tf
+MONET2018/MONET,MONET: Multiview Semi-supervised Keypoint Detection via Epipolar Divergence,iccv,2019,tf
+xu-ji/IIC,Invariant Information Clustering for Unsupervised Image Classification and Segmentation,iccv,2019,pytorch
+csm9493/FC-AIDE-Keras,Fully Convolutional Pixel Adaptive Image Denoiser,iccv,2019,tf
+carolineec/EverybodyDanceNow,Everybody Dance Now,iccv,2019,pytorch
+Liumouliu/deepIBL,Stochastic Attraction-Repulsion Embedding for Large Scale Image Localization,iccv,2019,none
+StanfordASL/Trajectron,The Trajectron: Probabilistic Multi-Agent Trajectory Modeling With Dynamic Spatiotemporal Graphs,iccv,2019,pytorch
+pengsongyou/CalibrationWizard,Calibration Wizard: A Guidance System for Camera Calibration Based on Modelling Geometric and Corner Uncertainty,iccv,2019,none
+DetectionTeamUCAS/R2CNN-Plus-Plus_Tensorflow,"SCRDet: Towards More Robust Detection for Small, Cluttered and Rotated Objects",iccv,2019,tf
+jihanyang/AFN,Larger Norm More Transferable: An Adaptive Feature Norm Approach for Unsupervised Domain Adaptation,iccv,2019,pytorch
+nschor/CompoNet,CompoNet: Learning to Generate the Unseen by Part Synthesis and Composition,iccv,2019,tf
+xumingze0308/TRN.pytorch,Temporal Recurrent Networks for Online Action Detection,iccv,2019,pytorch
+MIT-HAN-LAB/temporal-shift-module,TSM: Temporal Shift Module for Efficient Video Understanding,iccv,2019,pytorch
+ningyu1991/GANFingerprints,Attributing Fake Images to GANs: Learning and Analyzing GAN Fingerprints,iccv,2019,tf
+knmac/LCDC_release,Learning Motion in Feature Space: Locally-Consistent Deformable Convolution Networks for Fine-Grained Action Detection,iccv,2019,tf
+AlonShoshan10/dynamic_net,Dynamic-Net: Tuning the Objective Without Re-training for Synthesis Tasks,iccv,2019,pytorch
+tarun005/USSS_ICCV19,Universal Semi-Supervised Semantic Segmentation,iccv,2019,pytorch
+OasisYang/SSG,Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification,iccv,2019,pytorch
+speedinghzl/CCNet,CCNet: Criss-Cross Attention for Semantic Segmentation,iccv,2019,pytorch
+LuckyDC/SFT_REID,Spectral Feature Transformation for Person Re-identification,iccv,2019,tf
+TimeLighter/pytorch-sym-parameter,Sym-parameterized Dynamic Inference for Mixed-Domain Image Translation,iccv,2019,pytorch
+yuanyunzhe/bi-trans-parser,Bidirectional Transition-Based Dependency Parsing,aaai,2019,none
+zheshiyige/Learning-Diverse-Stochastic-Human-Action-Generators-by-Learning-Smooth-Latent-Transitions,Learning Diverse Stochastic Human-Action Generators by Learning Smooth Latent Transitions,aaai,2019,tf
+tjumyk/rma,A Recurrent Model for Collective Entity Linking with Adaptive Features,aaai,2020,none
+cchao0116/SGMC-AAAI21,Scalable and Explainable 1-Bit Matrix Completion via Graph Signal Learning,aaai,2021,none
+BangLiu/ArticlePairMatching,Matching Article Pairs with Graphical Decomposition and Convolutions,acl,2019,pytorch
+vineetjohn/linguistic-style-transfer,Disentangled Representation Learning for Non-Parallel Text Style Transfer,acl,2019,tf
+asyml/texar,"Texar: A Modularized, Versatile, and Extensible Toolkit for Text Generation",acl,2019,tf
+malllabiisc/WordGCN,Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks,acl,2019,tf
+declare-lab/MELD,MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations,acl,2019,tf
+microsoft/Multilingual-Model-Transfer,Multi-Source Cross-Lingual Model Transfer: Learning What to Share,acl,2019,pytorch
+subramanyamdvss/UnsupNTS,Unsupervised Neural Text Simplification,acl,2019,pytorch
+jkkummerfeld/irc-disentanglement,A Large-Scale Corpus for Conversation Disentanglement,acl,2019,tf
+lil-lab/nlvr,A Corpus for Reasoning About Natural Language Grounded in Photographs,acl,2019,none
+iacercalixto/variational_mmt,Latent Variable Model for Multi-modal Translation,acl,2019,pytorch
+facebookresearch/EmpatheticDialogues,Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset,acl,2019,pytorch
+allenai/PathNet,Exploiting Explicit Paths for Multi-hop Reading Comprehension,acl,2019,none
+aemami1/KnowRef,The Knowref Coreference Corpus: Removing Gender and Number Cues for Difficult Pronominal Anaphora Resolution,acl,2019,none
+thunlp/DIAG-NRE,DIAG-NRE: A Neural Pattern Diagnosis Framework for Distantly Supervised Neural Relation Extraction,acl,2019,pytorch
+cooelf/OpenIME,Open Vocabulary Learning for Neural Chinese Pinyin IME,acl,2019,none
+czhang99/Capsule-NLU,Joint Slot Filling and Intent Detection via Capsule Neural Networks,acl,2019,tf
+nikitakit/self-attentive-parser,Multilingual Constituency Parsing with Self-Attention and Pre-Training,acl,2019,tf
+kimiyoung/transformer-xl,Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context,acl,2019,pytorch
+butnaruandrei/MOROCO,MOROCO: The Moldavian and Romanian Dialectal Corpus,acl,2019,none
+namisan/mt-dnn,Multi-Task Deep Neural Networks for Natural Language Understanding,acl,2019,pytorch
+codogogo/xling-eval,"How to (Properly) Evaluate Cross-Lingual Word Embeddings: On Strong Baselines, Comparative Analyses, and Some Misconceptions",acl,2019,none
+afshinrahimi/mmner,Massively Multilingual Transfer for NER,acl,2019,tf
+artetxem/monoses,An Effective Approach to Unsupervised Machine Translation,acl,2019,pytorch
+memray/OpenNMT-kpg-release,One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases,acl,2020,pytorch
+cloudygoose/negativetraining_acl2020,Negative Training for Neural Dialogue Response Generation,acl,2020,pytorch
+tom-pelsmaeker/deep-generative-lm,Effective Estimation of Deep Generative Language Models,acl,2020,pytorch
+nikitakit/tetra-tagging,Tetra-Tagging: Word-Synchronous Parsing with Linear-Time Inference,acl,2020,none
+jacobandreas/geca,Good-Enough Compositional Data Augmentation,acl,2020,pytorch
+czyssrs/Few-Shot-NLG,Few-Shot NLG with Pre-Trained Language Model,acl,2020,tf
+daiquocnguyen/R-MeN,A Relational Memory-based Embedding Model for Triple Classification and Search Personalization,acl,2020,tf
+facebookresearch/evaluation-of-nmt-bt,On The Evaluation of Machine Translation Systems Trained With Back-Translation,acl,2020,none
+v-mipeng/LexiconAugmentedNER,Simplify the Usage of Lexicon in Chinese NER,acl,2020,pytorch
+WasifurRahman/BERT_multimodal_transformer,Integrating Multimodal Information in Large Pretrained Transformers,acl,2020,pytorch
+UKPLab/acl2020-dialogue-coherence-assessment,Dialogue Coherence Assessment Without Explicit Dialogue Act Labels,acl,2020,pytorch
+xingdi-eric-yuan/imrc_public,Interactive Machine Comprehension with Information Seeking Agents,acl,2020,pytorch
+morningmoni/FAR,Facet-Aware Evaluation for Extractive Summarization,acl,2020,none
+CogComp/QuASE,QuASE: Question-Answer Driven Sentence Encoding,acl,2020,pytorch
+weizhepei/CasRel,A Novel Cascade Binary Tagging Framework for Relational Triple Extraction,acl,2020,tf
+e-bug/pascal,Enhancing Machine Translation with Dependency-Aware Self-Attention,acl,2020,pytorch
+IBM/span-selection-pretraining,Span Selection Pre-training for Question Answering,acl,2020,pytorch
+RiTUAL-UH/cs_elmo,From English to Code-Switching: Transfer Learning with Strong Morphological Clues,acl,2020,pytorch
+danishpruthi/deceptive-attention,Learning to Deceive with Attention-Based Explanations,acl,2020,pytorch
+allenai/sdi-detection,SUPP.AI: Finding Evidence for Supplement-Drug Interactions,acl,2020,none
+h-shahidi/2birds-gen,"Two Birds, One Stone: A Simple, Unified Model for Text Generation from Structured and Unstructured Data",acl,2020,tf
+OanaMariaCamburu/e-SNLI,Make Up Your Mind! Adversarial Generation of Inconsistent Natural Language Explanations,acl,2020,pytorch
+INK-USC/ConNet,Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling,acl,2020,pytorch
+facebookresearch/MLQA,MLQA: Evaluating Cross-lingual Extractive Question Answering,acl,2020,none
+timoschick/bertram,BERTRAM: Improved Word Embeddings Have Big Impact on Contextualized Model Performance,acl,2020,pytorch
+PaddlePaddle/Research,PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable,acl,2020,paddle
+thunlp/KernelGAT,Fine-grained Fact Verification with Kernel Graph Attention Network,acl,2020,pytorch
+deepmind/xquad,On the Cross-lingual Transferability of Monolingual Representations,acl,2020,none
+ShannonAI/mrc-for-flat-nested-ner,A Unified MRC Framework for Named Entity Recognition,acl,2020,pytorch
+thunlp/SememePSO-Attack,Word-level Textual Adversarial Attacking as Combinatorial Optimization,acl,2020,pytorch
+VProv/BPE-Dropout,BPE-Dropout: Simple and Effective Subword Regularization,acl,2020,none
+TristaCao/into_inclusivecoref,Toward Gender-Inclusive Coreference Resolution,acl,2020,none
+awslabs/mlm-scoring,Masked Language Model Scoring,acl,2020,mxnet
+facebookresearch/anli,Adversarial NLI: A New Benchmark for Natural Language Understanding,acl,2020,pytorch
+zequnl/CMAML,Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks,acl,2020,pytorch
+yuxingch/Implicature-Strength-Some,Harnessing the linguistic signal to predict scalar inferences,acl,2020,pytorch
+mitchellgordon95/bert-prune,Compressing BERT: Studying the Effects of Weight Pruning on Transfer Learning,acl,2020,tf
+ben-aaron188/covid19worry,Measuring Emotions in the COVID-19 Real World Worry Dataset,acl,2020,none
+lipiji/SongNet,SongNet: Rigid Formats Controlled Text Generation,acl,2020,pytorch
+allenai/cord19,CORD-19: The COVID-19 Open Research Dataset,acl,2020,none
+windx0303/CODA-19,"CODA-19: Using a Non-Expert Crowd to Annotate Research Aspects on 10,000+ Abstracts in the COVID-19 Open Research Dataset",acl,2020,pytorch
+JerryWei03/COVID-Q,What Are People Asking About COVID-19? A Question Classification Dataset,acl,2020,none
+ellarabi/covid19-demography,Exploration of Gender Differences in COVID-19 Discourse on Reddit,acl,2020,none
+gorjanradevski/macchina,Self-supervised context-aware COVID-19 document exploration through atlas grounding,acl,2020,pytorch
+abchapman93/VA_COVID-19_NLP_BSV,A Natural Language Processing System for National COVID-19 Surveillance in the US Department of Veterans Affairs,acl,2020,none
+JuanCarlosCSE/YouTube_misinfo,NLP-based Feature Extraction for the Detection of COVID-19 Misinformation Videos on YouTube,acl,2020,none
+harvardnlp/pytorch-struct,Torch-Struct: Deep Structured Prediction Library,acl,2020,pytorch
+kel-lu/scigen,Explaining Relationships Between Scientific Documents,acl,2021,pytorch
+rsvp-ai/semantic_unwritten,Semantics of the Unwritten: The Effect of End of Paragraph and Sequence Tokens on Text Generation with GPT2,acl,2021,pytorch
+KazutoshiShinoda/VQAG,Improving the Robustness of QA Models to Challenge Sets with Variational Question-Answer Pair Generation,acl,2021,none
+MilaNLProc/contextualized-topic-models,Pre-training is a Hot Topic: Contextualized Document Embeddings Improve Topic Coherence,acl,2021,pytorch
+moinnadeem/StereoSet,StereoSet: Measuring stereotypical bias in pretrained language models,acl,2021,pytorch
+JohnGiorgi/DeCLUTR,DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations,acl,2021,pytorch
+jonathanherzig/span-based-sp,Span-based Semantic Parsing for Compositional Generalization,acl,2021,pytorch
+morningmoni/GAR,Generation-Augmented Retrieval for Open-domain Question Answering,acl,2021,pytorch
+fastnlp/fastHan,fastHan: A BERT-based Multi-Task Toolkit for Chinese NLP,acl,2021,pytorch
+thunlp/OpenAttack,OpenAttack: An Open-source Textual Adversarial Attack Toolkit,acl,2021,pytorch
+rooshenas/ebr_mt,Energy-Based Reranking: Improving Neural Machine Translation Using Energy-Based Models,acl,2021,pytorch
+Alibaba-NLP/ACE,Automated Concatenation of Embeddings for Structured Prediction,acl,2021,pytorch
+Alibaba-NLP/StructuralKD,Structural Knowledge Distillation: Tractably Distilling Information for Structured Predictor,acl,2021,pytorch
+clovaai/length-adaptive-transformer,"Length-Adaptive Transformer: Train Once with Length Drop, Use Anytime with Search",acl,2021,pytorch
+princeton-nlp/NegotiationToM,Improving Dialog Systems for Negotiation with Personality Modeling,acl,2021,pytorch
+lena-voita/the-story-of-heads,Analyzing the Source and Target Contributions to Predictions in Neural Machine Translation,acl,2021,tf
+valentinhofmann/dcwe,Dynamic Contextualized Word Embeddings,acl,2021,pytorch
+alibaba/AliceMind,VECO: Variable and Flexible Cross-lingual Pre-training for Language Understanding and Generation,acl,2021,pytorch
+alipay/KnowledgeGraphEmbeddingsViaPairedRelationVectors_PairRE,PairRE: Knowledge Graph Embeddings via Paired Relation Vectors,acl,2021,pytorch
+nyu-mll/pretraining-learning-curves,When Do You Need Billions of Words of Pretraining Data?,acl,2021,mxnet
+sweetalyssum/Seq2Seq-DU,A Sequence-to-Sequence Approach to Dialogue State Tracking,acl,2021,tf
+amzn/refuel-open-domain-qa,Answering Ambiguous Questions through Generative Evidence Fusion and Round-Trip Prediction,acl,2021,pytorch
+alibaba/EasyNLP,Meta-KD: A Meta Knowledge Distillation Framework for Language Model Compression across Domains,acl,2021,pytorch
+kaustubhdhole/natural-dont-know,Saying No is An Art: Contextualized Fallback Responses for Unanswerable Dialogue Queries,acl,2021,pytorch
+dguo98/DiffPruning,Parameter-Efficient Transfer Learning with Diff Pruning,acl,2021,pytorch
+tingofurro/shuffle_test,Can Transformer Models Measure Coherence In Text? Re-Thinking the Shuffle Test,acl,2021,pytorch

@@ -1,9 +1,7 @@
-import collections
-
 import pandas as pd
 
 
-df_repo = pd.read_csv('repoDB.csv')
+df_repo = pd.read_csv('repoDB_RAW.csv')
 df_issue = pd.read_csv('issueDB.csv')
 
 
@@ -27,5 +25,3 @@ for index, paper in df_repo.iterrows():
         for i in range(len(issue_list)):
             if issue_list[i] != issue_list_real[i]:
                 print(f'Index {i}: {issue_list[i]}-{issue_list_real[i]}')
-
-
