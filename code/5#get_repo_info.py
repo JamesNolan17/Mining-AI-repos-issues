@@ -1,11 +1,13 @@
 import pandas as pd
 from github_token import *
-repo_input_src = 'repoDB_RM_NESTED.csv'
+repo_input_src = 'repoDB.csv'
 repo_output_src = 'repoDB.csv'
 issue_src = 'issueDB.csv'
 
 name_to_record = ""
 start = True
+
+repo_set = set()
 
 df_repo = pd.read_csv(repo_input_src)
 for index, paper in df_repo.iterrows():
@@ -14,7 +16,15 @@ for index, paper in df_repo.iterrows():
     if not start: continue
     print(f'[{index + 1}] {paper["Name_Repo"]}')
     repo_url = paper['Name_Repo']
+    # Tolerant nested repo
+    if len(repo_url.split('/')) != 2:
+        repo_url = repo_url.split('/')[0] + '/' + repo_url.split('/')[1]
+        print(f'Nested repo: {repo_url}')
+    if repo_url in repo_set:
+        print(f'Repo {repo_url} already recorded')
+        continue
     repo = g.get_repo(repo_url)
+    repo_set.add(repo_url)
     # Open issues includes open issues and PRs.
     open_issues = repo.get_issues(state="open")
     closed_issues = repo.get_issues(state="closed")
@@ -64,6 +74,7 @@ for index, paper in df_repo.iterrows():
                 df_issue.loc[row_num, 'State'] = issue.state
                 df_issue.loc[row_num, 'Assignees'] = "\n".join(assignee._identity for assignee in issue.assignees)
                 df_issue.loc[row_num, 'Proposed_By'] = issue.user._identity
+                df_issue.loc[row_num, 'Closed_By'] = issue.closed_by._identity if issue.closed_by is not None else None
                 df_issue.loc[row_num, 'Date_Created'] = issue.created_at
                 df_issue.loc[row_num, 'Date_Closed'] = issue.closed_at
                 df_issue.loc[row_num, 'Num_Comment'] = issue.comments

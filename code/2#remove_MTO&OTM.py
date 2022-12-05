@@ -7,6 +7,7 @@ g = Github("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")
 repo_input_name = 'repoDB_RAW.csv'
 repo_output_name = 'repoDB_RM_MTO.csv'
 repo_db = pd.read_csv(repo_input_name)
+print(f"Total number of repos: {len(repo_db)}")
 
 paper_set = set()
 repo_set = set()
