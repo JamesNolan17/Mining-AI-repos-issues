@@ -19,3 +19,18 @@ https://www.google.com
 
 [Google](http://www.google.com "Google's Homepage")
 
+ `python3 -m pip install git+https://github.com/lpmp/LPMP.git@keypiont_submission`
+
+However, I meet a problem as follow:
+```
+Collecting git+https://github.com/lpmp/LPMP.git@keypiont_submission
+  Cloning https://github.com/lpmp/LPMP.git (to revision keypiont_submission) to /tmp/pip-req-build-8vg9x9xr
+  Running command git clone -q https://github.com/lpmp/LPMP.git /tmp/pip-req-build-8vg9x9xr
+  WARNING: Did not find branch or tag 'keypiont_submission', assuming revision or ref.
+  Running command git checkout -q keypiont_submission
+  error: pathspec 'keypiont_submission' did not match any file(s) known to git.
+WARNING: Discarding git+https://github.com/lpmp/LPMP.git@keypiont_submission. Command errored out with exit status 1: git checkout -q keypiont_submission Check the logs for full command output.
+ERROR: Command errored out with exit status 1: git checkout -q keypiont_submission Check the logs for full command output.
+```
+
+Did the ""keypiont_submission"" branch removed ? How can I get this graph matching solver ?
