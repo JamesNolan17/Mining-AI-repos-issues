@@ -1,0 +1,21 @@
+```
+foo = 'bar'
+do_things()
+```
+Some message text...
+```
+more_code()
+```
+More message text...
+
+![MarineGEO circle logo](/assets/img/MarineGEO_logo.png "MarineGEO logo")
+
+I just love <strong>bold text</strong>.
+
+http://www.google.com
+https://www.google.com
+
+[Google](http://www.google.com)
+
+[Google](http://www.google.com "Google's Homepage")
+
