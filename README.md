@@ -1,7 +1,7 @@
 # Mine GitHub Issues
 ## The database:
 There are 2 databases that are used in this project: 
-1. `repoDB.csv`: Contains all repositories that are mined by [PaperWithCode API](https://api.paperwithcode.com/) under the following contains:  `conference_ids = [_.lower() for _ in ["CVPR","ICLR","ICML","NeurIPS","ECCV","ICCV","AAAI","ACL","SIGKDD","AAMAS"]]`
+1. `repoDB.csv`: Contains all repositories that are mined by PapersWithCode API under the following contains:  `conference_ids = [_.lower() for _ in ["CVPR","ICLR","ICML","NeurIPS","ECCV","ICCV","AAAI","ACL","SIGKDD","AAMAS"]]`
 
 | Column Name                  | Description                                                                                                                                                                                                                      | Fetched From     |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
