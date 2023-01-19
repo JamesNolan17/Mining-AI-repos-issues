@@ -1,60 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2abef50f-58f5-4fdf-9e39-475a0c24a87c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Minging-AI-repos-issues.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/conference_distribution_bar.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/contributor_distribution_density.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/fork_distribution_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/fork_distribution_density.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/issue_body_length_distribution_open&amp;close_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/issue_body_lineno_distribution_open&amp;close_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/issue_close_rate_distribution_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/issue_close_rate_distribution_density.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/issue_resolve_time_distribution_density.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/num_comment_distribution_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/num_comment_distribution_density.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/star_distribution_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/star_distribution_density.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/top_10_labels_academia_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/top_10_labels_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/top_10_labels_industry_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/top_10_labels_mono_repo_dropped_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/watcher_distribution_box.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/watcher_distribution_density.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/graphs/year_distribution_bar.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/conference_distribution_bar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/conference_distribution_bar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/contributor_distribution_density.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/contributor_distribution_density.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/fork_distribution_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/fork_distribution_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/fork_distribution_density.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/fork_distribution_density.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/issue_body_length_distribution_open&amp;close_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/issue_body_length_distribution_open&amp;close_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/issue_body_lineno_distribution_open&amp;close_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/issue_body_lineno_distribution_open&amp;close_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/issue_close_rate_distribution_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/issue_close_rate_distribution_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/issue_close_rate_distribution_density.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/issue_close_rate_distribution_density.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/issue_close_rate_distribution_exclude_no_issue_repo_box.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/issue_ignore_rate_distribution_exclude_no_issue_repo_box.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/issue_resolve_time_distribution_box.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/issue_resolve_time_distribution_density.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/issue_resolve_time_distribution_density.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/num_comment_distribution_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/num_comment_distribution_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/num_comment_distribution_density.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/num_comment_distribution_density.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/star_distribution_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/star_distribution_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/star_distribution_density.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/star_distribution_density.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/top_10_labels_academia_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/top_10_labels_academia_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/top_10_labels_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/top_10_labels_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/top_10_labels_industry_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/top_10_labels_industry_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/top_10_labels_mono_repo_dropped_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/top_10_labels_mono_repo_dropped_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/watcher_distribution_box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/watcher_distribution_box.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/watcher_distribution_density.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/watcher_distribution_density.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/graphs/year_distribution_bar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/code/graphs/year_distribution_bar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674114937856</updated>
       <workItem from="1674114939614" duration="105000" />
-      <workItem from="1674116329401" duration="379000" />
+      <workItem from="1674116329401" duration="975000" />
     </task>
     <servers />
   </component>
